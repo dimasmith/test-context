@@ -63,6 +63,6 @@ importing shared `TestSetup` configuration.
 
 ## Things to check
 
-- [ ] Check if test in same package as test with custom configuration 
+- [x] Check if test in same package as test with custom configuration 
 will be affected
 
