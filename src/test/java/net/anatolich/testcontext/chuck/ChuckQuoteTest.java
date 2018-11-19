@@ -1,6 +1,6 @@
 package net.anatolich.testcontext.chuck;
 
-import net.anatolich.testcontext.FeatureTest;
+import net.anatolich.testcontext.feature.FeatureTest;
 import net.anatolich.testcontext.log.LoggingQuoteCollector;
 import net.anatolich.testcontext.quote.QuoteCollector;
 import net.anatolich.testcontext.quote.QuoteProvider;

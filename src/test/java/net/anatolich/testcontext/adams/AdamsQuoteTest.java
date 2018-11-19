@@ -1,9 +1,8 @@
 package net.anatolich.testcontext.adams;
 
-import net.anatolich.testcontext.FeatureTest;
+import net.anatolich.testcontext.feature.FeatureTest;
 import net.anatolich.testcontext.collector.CollectionQuoteCollector;
 import net.anatolich.testcontext.collector.TestSetup;
-import net.anatolich.testcontext.log.LoggingQuoteCollector;
 import net.anatolich.testcontext.quote.QuoteCollector;
 import net.anatolich.testcontext.quote.QuoteProvider;
 import org.junit.Test;

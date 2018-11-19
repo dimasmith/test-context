@@ -1,6 +1,6 @@
 package net.anatolich.testcontext.fortune;
 
-import net.anatolich.testcontext.FeatureTest;
+import net.anatolich.testcontext.feature.FeatureTest;
 import net.anatolich.testcontext.collector.CollectionQuoteCollector;
 import net.anatolich.testcontext.collector.QuoteCollectorInspector;
 import net.anatolich.testcontext.collector.TestSetup;
