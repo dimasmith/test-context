@@ -7,9 +7,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-class CollectionQuoteCollector implements QuoteCollector, QuoteCollectorInspector {
+public class CollectionQuoteCollector implements QuoteCollector, QuoteCollectorInspector {
 
-    private static final String NAME = "TestCollector";
+    public static final String NAME = "TestCollector";
     private List<Quote> quotes = new ArrayList<>();
 
     @Override
