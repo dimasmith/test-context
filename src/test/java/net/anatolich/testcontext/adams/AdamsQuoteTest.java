@@ -7,9 +7,8 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Primary;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import static org.junit.Assert.assertThat;
@@ -26,10 +25,9 @@ public class AdamsQuoteTest extends ApplicationTests {
         assertThat(quotes.name(), Matchers.equalTo(AdamsQuoteProvider.NAME));
     }
 
-    @TestConfiguration
+    @Configuration
     static class QuoteProviderConfiguration {
 
-        @Primary
         @Bean
         public QuoteProvider quoteProvider() {
             return new AdamsQuoteProvider();
